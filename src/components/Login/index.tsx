@@ -13,12 +13,12 @@ export function Login() {
 
             >
                 <Button colorScheme="teal" variant="ghost">
-                    Sign in
+                    Entrar
                     <Icon marginLeft="2" as={ImUserCheck}/>
                 </Button>
                 <Box marginLeft="2" marginRight="2">|</Box>
                 <Button colorScheme="teal" variant="ghost">
-                    Sign up
+                    Cadastrar
                     <Icon marginLeft="2" as={ImUserPlus}/>
                 </Button>
             </Flex>
