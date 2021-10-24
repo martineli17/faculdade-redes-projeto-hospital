@@ -25,7 +25,7 @@ function App() {
       <Center marginTop="6" fontSize="2xl" >
         <Box backgroundColor="teal.400" width="auto" padding="2" paddingLeft="4" paddingRight="4" borderRadius="md">
           <Text fontWeight="hairline" color="white">
-            Bem-vindo ao <span style={{fontWeight:"bold", marginLeft:"2", color:"white"}}> Hospital Cotemig</span>
+            Bem-vindo ao <span style={{ fontWeight: "bold", marginLeft: "2", color: "white" }}> Hospital Cotemig</span>
           </Text>
         </Box>
       </Center>
@@ -46,14 +46,14 @@ function App() {
         </Box>
       </Box>
       <Box marginTop="10" marginLeft="6">
-        <Text fontWeight="hairline" fontSize="3xl"  color="teal.400">
+        <Text fontWeight="hairline" fontSize="3xl" color="teal.400">
           Algumas notícias recentes
         </Text>
         <Box marginTop="2" >
           <Divider width="90%" orientation="horizontal" />
         </Box>
         <Flex paddingLeft="10" paddingRight="10" justifyContent="space-between">
-          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2">
+          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2" _hover={{ cursor: "pointer" }}>
             <Stack>
               <Heading
                 color={useColorModeValue('gray.700', 'white')}
@@ -75,7 +75,7 @@ function App() {
           <Center>
             <Divider height="50%" orientation="vertical" />
           </Center>
-          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2">
+          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2" _hover={{ cursor: "pointer" }}>
             <Stack>
               <Heading
                 color={useColorModeValue('gray.700', 'white')}
@@ -97,7 +97,7 @@ function App() {
           <Center>
             <Divider height="50%" orientation="vertical" />
           </Center>
-          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2">
+          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2" _hover={{ cursor: "pointer" }}>
             <Stack>
               <Heading
                 color={useColorModeValue('gray.700', 'white')}
@@ -119,7 +119,7 @@ function App() {
           <Center>
             <Divider height="70%" orientation="vertical" />
           </Center>
-          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2">
+          <Box marginTop="2" fontWeight="hairline" fontSize="xl" width="300px" borderRadius="10" padding="2" _hover={{ cursor: "pointer" }}>
             <Stack>
               <Heading
                 color={useColorModeValue('gray.700', 'white')}
@@ -141,7 +141,7 @@ function App() {
         </Flex>
       </Box>
       <Box marginTop="10" marginLeft="6">
-        <Text fontWeight="hairline" fontSize="3xl"  color="teal.400">
+        <Text fontWeight="hairline" fontSize="3xl" color="teal.400">
           Nossos planos
         </Text>
         <Box marginTop="2" >
@@ -176,7 +176,7 @@ function App() {
 
         </SimpleGrid>
       </Box>
-      <Box marginTop="10" marginLeft="6"  color="teal.400">
+      <Box marginTop="10" marginLeft="6" color="teal.400">
         <Text fontWeight="hairline" fontSize="3xl">
           Nossa localização
         </Text>
@@ -200,9 +200,18 @@ function App() {
           </Box>
           <Box>
             <Text fontWeight="hairline" fontSize="3xl" marginBottom="4">Mídias Sociais</Text>
-            <Text fontWeight="hairline" fontSize="xl" >Instagram <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineInstagram} /></Text>
-            <Text fontWeight="hairline" fontSize="xl">YoutTube <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiFillYoutube} /></Text>
-            <Text fontWeight="hairline" fontSize="xl">WhatsApp <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineWhatsApp} /></Text>
+            <Button fontWeight="hairline" fontSize="3xl" marginBottom="4" colorScheme="teal" variant="ghost">
+              Instagram
+              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineInstagram} />
+            </Button>
+            <Button fontWeight="hairline" fontSize="3xl" marginBottom="4" colorScheme="teal" variant="ghost">
+              YoutTube
+              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiFillYoutube} />
+            </Button>
+            <Button fontWeight="hairline" fontSize="3xl" marginBottom="4" colorScheme="teal" variant="ghost">
+              WhatsApp
+              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineWhatsApp} />
+            </Button>
           </Box>
           <Box>
             <Text fontWeight="hairline" fontSize="3xl" marginBottom="4">Contato</Text>
