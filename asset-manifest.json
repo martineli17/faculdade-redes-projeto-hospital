@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/faculdade-redes-projeto-hospital/static/js/main.fc33f1ac.chunk.js",
+    "main.js.map": "/faculdade-redes-projeto-hospital/static/js/main.fc33f1ac.chunk.js.map",
+    "runtime-main.js": "/faculdade-redes-projeto-hospital/static/js/runtime-main.23b23c73.js",
+    "runtime-main.js.map": "/faculdade-redes-projeto-hospital/static/js/runtime-main.23b23c73.js.map",
+    "static/js/2.09f86937.chunk.js": "/faculdade-redes-projeto-hospital/static/js/2.09f86937.chunk.js",
+    "static/js/2.09f86937.chunk.js.map": "/faculdade-redes-projeto-hospital/static/js/2.09f86937.chunk.js.map",
+    "index.html": "/faculdade-redes-projeto-hospital/index.html",
+    "static/js/2.09f86937.chunk.js.LICENSE.txt": "/faculdade-redes-projeto-hospital/static/js/2.09f86937.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23b23c73.js",
+    "static/js/2.09f86937.chunk.js",
+    "static/js/main.fc33f1ac.chunk.js"
+  ]
+}
