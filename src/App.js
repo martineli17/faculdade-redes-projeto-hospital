@@ -3,6 +3,7 @@ import { AiOutlineWhatsApp, AiOutlineInstagram, AiFillYoutube } from 'react-icon
 import { Header } from './components/Header'
 import { Login } from './components/Login'
 import { Pricing } from './components/Pricing'
+import BackgroundPricing from "./assets/fachada.jpg"
 
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
           </Text>
         </Box>
       </Box>
-      <Box marginTop="24" marginLeft="6">
+      <Box marginTop="10" marginLeft="6">
         <Text fontWeight="hairline" fontSize="3xl"  color="teal.400">
           Algumas notícias recentes
         </Text>
@@ -139,7 +140,7 @@ function App() {
           </Box>
         </Flex>
       </Box>
-      <Box marginTop="24" marginLeft="6">
+      <Box marginTop="10" marginLeft="6">
         <Text fontWeight="hairline" fontSize="3xl"  color="teal.400">
           Nossos planos
         </Text>
@@ -149,7 +150,7 @@ function App() {
       </Box>
       <Box
         marginTop="4"
-        backgroundImage="/fachada.jpg">
+        backgroundImage={BackgroundPricing}>
         <SimpleGrid columns={3} spacing={10} padding="10">
           <Pricing
             backgroundColor="white"
@@ -175,7 +176,7 @@ function App() {
 
         </SimpleGrid>
       </Box>
-      <Box marginTop="24" marginLeft="6"  color="teal.400">
+      <Box marginTop="10" marginLeft="6"  color="teal.400">
         <Text fontWeight="hairline" fontSize="3xl">
           Nossa localização
         </Text>
