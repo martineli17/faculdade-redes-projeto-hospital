@@ -198,21 +198,21 @@ function App() {
             <Text fontWeight="hairline" fontSize="xl">Belo Horizonte</Text>
             <Text fontWeight="hairline" fontSize="xl">Minas Gerais</Text>
           </Box>
-          <Box>
+          <Flex flexDirection="column" justifyContent="start" alignItems="start">
             <Text fontWeight="hairline" fontSize="3xl" marginBottom="4">Mídias Sociais</Text>
-            <Button fontWeight="hairline" fontSize="3xl" marginBottom="4" colorScheme="teal" variant="ghost">
+            <Button fontWeight="hairline" fontSize="xl" colorScheme="teal" variant="ghost">
               Instagram
-              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineInstagram} />
+              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineInstagram} marginLeft="2"/>
             </Button>
-            <Button fontWeight="hairline" fontSize="3xl" marginBottom="4" colorScheme="teal" variant="ghost">
-              YoutTube
-              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiFillYoutube} />
+            <Button fontWeight="hairline" fontSize="xl" colorScheme="teal" variant="ghost">
+              YoutTube 
+              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiFillYoutube} marginLeft="2"/>
             </Button>
-            <Button fontWeight="hairline" fontSize="3xl" marginBottom="4" colorScheme="teal" variant="ghost">
+            <Button fontWeight="hairline" fontSize="xl" colorScheme="teal" variant="ghost">
               WhatsApp
-              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineWhatsApp} />
+              <Icon _hover={{ cursor: "pointer" }} color="teal" as={AiOutlineWhatsApp} marginLeft="2"/>
             </Button>
-          </Box>
+          </Flex>
           <Box>
             <Text fontWeight="hairline" fontSize="3xl" marginBottom="4">Contato</Text>
             <Input borderRadius="full" variant="filled" placeholder="Seu e-mail" marginBottom="4" />
